@@ -48,7 +48,7 @@ export default function NavReact() {
                 }
                 onClick={() => onUpdateActiveLink("home")}
               >
-                Home
+                Inicio
               </Nav.Link>
               <Nav.Link
                 href="#skills"
@@ -68,7 +68,7 @@ export default function NavReact() {
                 }
                 onClick={() => onUpdateActiveLink("projects")}
               >
-                Projects
+                Proyectos
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
@@ -83,11 +83,11 @@ export default function NavReact() {
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
-              <HashLink to="#connect">
+              {/* <HashLink to="#connect">
                 <button className="vvd">
                   <span>Let’s Connect</span>
                 </button>
-              </HashLink>
+              </HashLink> */}
             </span>
           </Navbar.Collapse>
         </Container>

@@ -86,9 +86,9 @@ export default function Banner() {
                     practicidad como el atractivo visual de cada uno de mis
                     proyectos.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  {/* <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  </button> */}
                 </div>
               )}
             </TrackVisibility>
