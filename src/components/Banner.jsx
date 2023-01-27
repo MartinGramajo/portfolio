@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -85,9 +84,6 @@ export default function Banner() {
                     por ello como programador busco tanto la practicidad como el
                     atractivo visual de cada uno de mis proyectos.
                   </p>
-                  {/* <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button> */}
                 </div>
               )}
             </TrackVisibility>
