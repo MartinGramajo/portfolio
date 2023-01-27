@@ -41,6 +41,34 @@ export default function Projects() {
       imgUrl: projImg3,
     },
   ];
+
+  const projects2 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+  ];
   return (
     <section className="project" id="project">
       <Container>
@@ -100,6 +128,11 @@ export default function Projects() {
                           eligendi dicta officiis asperiores delectus quasi
                           inventore debitis quo.
                         </p>
+                        <Row>
+                          {projects2.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>

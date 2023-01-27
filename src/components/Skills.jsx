@@ -7,6 +7,15 @@ import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import html from "../assets/img/html-5.png";
+import css from "../assets/img/css-3.png";
+import js from "../assets/img/js.png";
+import react from "../assets/img/react.png";
+import reactnative from "../assets/img/react-native.jpg";
+import github from "../assets/img/github.png";
+import api from "../assets/img/api.png";
+import mongodb from "../assets/img/mongodb.png";
+import express from "../assets/img/express-js.png";
 
 export default function Skills() {
   const responsive = {
@@ -35,32 +44,43 @@ export default function Skills() {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
-              </p>
+              <h2 className="mb-5">Skills</h2>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={html} alt="Image" />
+                  <h5>Html</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <img src={css} alt="Image" />
+                  <h5>Css</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <img src={js} alt="Image" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img src={github} alt="Image" />
+                  <h5>Github</h5>
+                </div>
+                <div className="item">
+                  <img src={react} alt="Image" />
+                  <h5>React js </h5>
+                </div>
+                <div className="item">
+                  <img src={reactnative} alt="Image" />
+                  <h5>React Native</h5>
+                </div>
+                <div className="item">
+                  <img src={mongodb} alt="Image" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={express} alt="Image" />
+                  <h5>Express js</h5>
                 </div>
               </Carousel>
             </div>

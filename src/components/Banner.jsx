@@ -77,14 +77,13 @@ export default function Banner() {
                   </h1>
                   <p>
                     Me llamo Martin Gramajo pero todos me dicen Mago. Soy
-                    Programador FullStack pero actualmente estoy 100% dedicado a
-                    todo lo relacionado con Front. Ademas de ser Abogado. Me
-                    considero una persona que le gusta aprender, esforzarse y
-                    buscar soluciones a cualquier tipo de desafío. Si tuviera
-                    que definirme con una frase seria "todo problema tiene
-                    solución" por ello como programador busco tanto la
-                    practicidad como el atractivo visual de cada uno de mis
-                    proyectos.
+                    Programador FullStack & Abogado. Actualmente estoy 100%
+                    dedicado a todo lo relacionado con Front. Me considero una
+                    persona que le gusta aprender, esforzarse y buscar
+                    soluciones a cualquier tipo de desafío. Si tuviera que
+                    definirme con una frase seria "todo problema tiene solución"
+                    por ello como programador busco tanto la practicidad como el
+                    atractivo visual de cada uno de mis proyectos.
                   </p>
                   {/* <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
