@@ -215,7 +215,7 @@ export default function Projects() {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <Row className="py-4">
+                        <Row className="py-2">
                           {projectsApp.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
