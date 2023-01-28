@@ -1,72 +1,156 @@
 import React from "react";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import ProjectCard from "./ProjectCard";
+import viviendasbelgrano from "../assets/img/viviendasbelgrano.png";
+import hoteltafi from "../assets/img/hoteltafi.png";
+import grillman from "../assets/img/grillman.png";
+import cga from "../assets/img/cga.png";
+import gs from "../assets/img/gs.png";
+import estancia from "../assets/img/laestancia.png";
+import magno from "../assets/img/magno.png";
 
 export default function Projects() {
-  const projects = [
+  const projectsApp = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Viviendas Belgrano Tucumán",
+      description:
+        "Proyecto freelance en React. Su objetivo es brindar información en general sobre Viviendas Belgrano.",
+      dependencias: "Dependencias: react-bootstrap, react-router-dom, emailjs",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Hotel Tafí",
+      description:
+        "Proyecto freelance creado en react con integración de widget de reservas para el hospedaje",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs",
+      imgUrl: hoteltafi,
+      url: "https://hoteltafi.com/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Grillman 100% carne al fuego",
+      description:
+        "Proyecto freelance creado en react con integración de olaClick para realizar pedidos a domicilio",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs, fontawesome",
+      imgUrl: grillman,
+      url: "https://grillman.com.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Cámara de actividades gastronómicas Tucumán",
+      description:
+        "Proyecto freelance en React con integración de sistema de pago para los miembros de la cámara.",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom,react-player, swiper, emailjs, fontawesome",
+      imgUrl: cga,
+      url: "https://cga.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "German Schilman - inmobiliaria & emprendimientos",
+      description:
+        "Proyecto freelance creado en react permite al usuario ver los distintos inmuebles para la venta/alquiler.",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs",
+      imgUrl: gs,
+      url: "http://www.germanschilman.com/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "La Estancia Gastrohome",
+      description:
+        "Proyecto freelance creado en react, permite al usuario realizar pedidos a domicilio o reservar mesa",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs, fontawesome",
+      imgUrl: estancia,
+      url: "https://laestanciagastrohome.es/",
+    },
+    {
+      title: "Magno-group",
+      description:
+        "Proyecto freelance creado en react permite al usuario conocer los distintos servicios y rubros de la empresa.",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs, fontawesome",
+      imgUrl: magno,
+      url: "https://www.magno-group.com/",
     },
   ];
 
-  const projects2 = [
+  const projectsLanding = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
+    },
+    {
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
+    },
+  ];
+
+  const projectsPersonal = [
+    {
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
+    },
+    {
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
+    },
+    {
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
+    },
+    {
+      title: "Sebastian Spinelli",
+      description:
+        "Proyecto freelance en React. Landing Page estilo portfolio.",
+      imgUrl: viviendasbelgrano,
+      url: "https://viviendasbelgrano.com.ar/",
     },
   ];
   return (
@@ -81,14 +165,8 @@ export default function Projects() {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Proyectos</h2>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
+                  <h2 className="mb-5">Proyectos</h2>
+                  <p>"Trabajemos juntos y creemos algo único"</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -96,14 +174,21 @@ export default function Projects() {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Landing Page</Nav.Link>
+                        <Nav.Link className="title-responsive" eventKey="first">
+                          App Webs
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">App Web</Nav.Link>
+                        <Nav.Link
+                          className="title-responsive"
+                          eventKey="second"
+                        >
+                          Landings
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">
-                          Proyectos Personales
+                        <Nav.Link className="title-responsive" eventKey="third">
+                          Personales
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>
@@ -114,34 +199,25 @@ export default function Projects() {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => {
+                        <Row className="py-4">
+                          {projectsApp.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                        <Row>
-                          {projects2.map((project, index) => {
+                        <Row className="py-4">
+                          {projectsLanding.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <Row className="py-4">
+                          {projectsPersonal.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

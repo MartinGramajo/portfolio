@@ -247,7 +247,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
   padding: 260px 0 100px 0;
   background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
@@ -557,6 +556,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+@media (max-width: 500px) {
+  .title-responsive {
+    font-size: 14px !important;
+  }
+}
+
 /************ Footer Css ************/
 
 .fixed-footer {
@@ -564,7 +569,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer {
-  padding: 0 0 50px 0;
+  padding: 90px;
   background-image: url("./assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;

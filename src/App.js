@@ -7,13 +7,13 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div >
+    <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
       <NavReact />
       <Banner />
       <Skills />
       <Projects />
       <Footer />
-    </div>
+    </div >
   );
 }
 

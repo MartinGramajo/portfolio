@@ -16,6 +16,7 @@ import github from "../assets/img/github.png";
 import api from "../assets/img/api.png";
 import mongodb from "../assets/img/mongodb.png";
 import express from "../assets/img/express-js.png";
+import Projects from "./Projects";
 
 export default function Skills() {
   const responsive = {
