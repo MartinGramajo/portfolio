@@ -96,6 +96,10 @@ p.danger {
   color: red;
 }
 /************ Navbar Css ************/
+/* .logo {
+  width: 50px;
+} */
+
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -577,7 +581,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .footer img {
-  width: 26%;
+  width: 35%;
+  background-color: #30213487;
+  border-radius: 45%;
 }
 .footer p {
   font-weight: 400;
