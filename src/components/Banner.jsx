@@ -74,7 +74,7 @@ export default function Banner() {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>
+                  <p className="banner-text">
                     Me llamo Martin Gramajo pero todos me dicen Mago. Soy
                     Programador FullStack & Abogado. Actualmente estoy 100%
                     dedicado a todo lo relacionado con Front. Me considero una
