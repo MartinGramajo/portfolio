@@ -60,7 +60,7 @@ export default function NavReact() {
                 Skills
               </Nav.Link>
               <Nav.Link
-                href="#project"
+                href="#proyectos"
                 className={
                   activeLink === "projects"
                     ? "active navbar-link"

@@ -4,6 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import ProjectCard from "./ProjectCard";
+
+/*appwebs*/
 import viviendasbelgrano from "../assets/img/viviendasbelgrano.png";
 import hoteltafi from "../assets/img/hoteltafi.png";
 import grillman from "../assets/img/grillman.png";
@@ -11,6 +13,20 @@ import cga from "../assets/img/cga.png";
 import gs from "../assets/img/gs.png";
 import estancia from "../assets/img/laestancia.png";
 import magno from "../assets/img/magno.png";
+
+/*landings*/
+import sebas from "../assets/img/sebas.png";
+import zanovello from "../assets/img/zanovello.png";
+import ena from "../assets/img/ena.png";
+import seba from "../assets/img/seba.png";
+import expreso from "../assets/img/expresotokyo.png";
+import portal from "../assets/img/portal.png";
+
+/*Personales*/
+import rick from "../assets/img/rickandmorty.png";
+import vete from "../assets/img/vete.png";
+import pokeapi from "../assets/img/pokeapi.png";
+import todo from "../assets/img/todo.png";
 
 export default function Projects() {
   const projectsApp = [
@@ -83,78 +99,78 @@ export default function Projects() {
       title: "Sebastian Spinelli",
       description:
         "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+      imgUrl: sebas,
+      url: "https://sebaspinelli.com/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "Zanovello Tax - Tax & Legal services",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto freelance en React. Landing Page para una firma de abogados y contadores con sede en Argentina y EEUU.",
+      imgUrl: zanovello,
+      url: "https://zanovellotax.com/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "Enacoin",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto freelance en React. Landing Page sobre educación financiera, emocional y crypto.",
+      imgUrl: ena,
+      url: "https://enacoin.net//",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "Sebastian Filkestein",
       description:
         "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+      imgUrl: seba,
+      url: "https://www.sebafinkelstein.com/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "Expreso Tokio",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto freelance en React. Landing Page para una empresa de transporte de cargas.",
+      imgUrl: expreso,
+      url: "https://expresotokio.com/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "Portal del Roble",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto freelance en React. Landing Page informativa sobre el barrio privado.",
+      imgUrl: portal,
+      url: "http://bunader.com.ar/portal-del-roble/",
     },
   ];
 
   const projectsPersonal = [
     {
-      title: "Sebastian Spinelli",
+      title: "Rick & Morty App",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto personal en React. Lista 15 resultados, muestra detalles de cada personaje utilizando la api rickandmorty. Ademas filtra por localizaciones y usa context para crear favoritos.",
+      imgUrl: rick,
+      url: "https://rick-and-morty-api-mg.vercel.app/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "Veterinaria Mi amigo leon",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto personal en React. Permite administrar turnos para los pacientes.",
+      imgUrl: vete,
+      url: "https://veterinaria-turnos-mg.vercel.app/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "To Do",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto personal en React. Consume la api(pokeapi.co). Simula una pokedex, permitiendo al usuario la búsqueda de su Pokemon y agregar sus favoritos. ",
+      imgUrl: todo,
+      url: "https://poke-api-min5p7eyv-martingramajo.vercel.app/",
     },
     {
-      title: "Sebastian Spinelli",
+      title: "PokeApi",
       description:
-        "Proyecto freelance en React. Landing Page estilo portfolio.",
-      imgUrl: viviendasbelgrano,
-      url: "https://viviendasbelgrano.com.ar/",
+        "Proyecto freelance en React.  Crea una lista de tarea. Principales acciones: crear, eliminar, modificar y tachar cada tarea.",
+      imgUrl: pokeapi,
+      url: "https://to-do-list-mg.vercel.app/",
     },
   ];
   return (
-    <section className="project" id="project">
+    <section className="project" id="proyectos">
       <Container>
         <Row>
           <Col size={12}>
