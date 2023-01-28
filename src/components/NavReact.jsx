@@ -73,17 +73,35 @@ export default function NavReact() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
-                  <img src={navIcon1} alt="" />
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/martin-gramajo-20740a221/"
+                >
+                  <img src={navIcon1} alt="Icon" />
                 </a>
-                <a href="#">
-                  <img src={navIcon2} alt="" />
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://wa.link/kp0oz5"
+                >
+                  <img src={navIcon2} alt="Icon" />
                 </a>
-                <a href="#">
-                  <img src={navIcon3} alt="" />
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/MartinGramajo"
+                >
+                  <img src={navIcon3} alt="Icon" />
                 </a>
               </div>
-              <HashLink to="#connect">
+              <HashLink
+                className="text-decoration-none"
+                to={"/MartinGramajoDevFrontendCV.pdf"}
+                download
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="vvd">
                   <h6>Descargar Cv</h6>
                 </button>
