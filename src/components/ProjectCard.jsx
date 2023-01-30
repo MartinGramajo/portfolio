@@ -18,7 +18,7 @@ export default function ProjectCard({
         rel="noreferrer"
       >
         <div className="proj-imgbx">
-          <img src={imgUrl} />
+          <img src={imgUrl} alt="icon" />
           <div className="proj-txtx">
             {" "}
             <h5>{title}</h5>
