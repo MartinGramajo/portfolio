@@ -573,7 +573,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media (max-width: 500px) {
   .title-responsive {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 }
 
