@@ -166,8 +166,8 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%)
-    contrast(86%);
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(40%)
+    contrast(16%);
 }
 .navbar-text button {
   font-weight: 700;
@@ -591,9 +591,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 
-.footer img {
+.logo-footer {
   width: 35%;
-  /* background-color: #30213487; */
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   border-radius: 45%;
 }

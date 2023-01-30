@@ -25,16 +25,23 @@ export default function Footer() {
           <Col size={12} sm={4} className="text-center text-sm-end">
             <div className="social-icon">
               <a
+                className="text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/martin-gramajo-20740a221/"
               >
                 <img src={navIcon1} alt="Icon" />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://wa.link/kp0oz5">
+              <a
+                className="text-decoration-none"
+                target="_blank"
+                rel="noreferrer"
+                href="https://wa.link/kp0oz5"
+              >
                 <img src={navIcon2} alt="Icon" />
               </a>
               <a
+                className="text-decoration-none"
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/MartinGramajo"
