@@ -38,15 +38,15 @@ export default function Projects() {
       imgUrl: viviendasbelgrano,
       url: "https://viviendasbelgrano.com.ar/",
     },
-    // {
-    //   title: "Hotel Tafí",
-    //   description:
-    //     "Proyecto freelance creado en react con integración de widget de reservas para el hospedaje",
-    //   dependencias:
-    //     "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs",
-    //   imgUrl: hoteltafi,
-    //   url: "https://hoteltafi.com/",
-    // },
+    {
+      title: "Hotel Tafí",
+      description:
+        "Proyecto freelance creado en react con integración de widget de reservas para el hospedaje",
+      dependencias:
+        "Dependencias: react-bootstrap, react-router-dom, react-player, sweetalert2, swiper, emailjs",
+      imgUrl: hoteltafi,
+      url: "https://hoteltafi.com/",
+    },
     {
       title: "Grillman 100% carne al fuego",
       description:
