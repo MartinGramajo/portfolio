@@ -251,8 +251,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .logo-nav {
   width: 70px;
-  background: rgb(51, 29, 77);
-  background: linear-gradient(90deg, rgb(62, 42, 85) 0%, rgb(45, 12, 84) 84%, rgba(87, 5, 176, 0.162) 100%);
+  background: #878181;
+  /* background: linear-gradient(90deg, rgb(62, 42, 85) 0%, rgb(45, 12, 84) 84%, rgba(87, 5, 176, 0.162) 100%); */
   border-radius: 45%;
 }
 
@@ -602,8 +602,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .logo-footer {
   width: 35%;
-  background: rgb(51, 29, 77);
-  background: linear-gradient(90deg, rgb(62, 42, 85) 0%, rgb(45, 12, 84) 84%, rgba(87, 5, 176, 0.162) 100%);
+  background: #878181;
+  /* background: linear-gradient(90deg, rgb(62, 42, 85) 0%, rgb(45, 12, 84) 84%, rgba(87, 5, 176, 0.162) 100%); */
   border-radius: 45%;
 }
 .footer p {
