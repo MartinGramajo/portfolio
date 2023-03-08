@@ -102,7 +102,7 @@ export default function NavReact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="vvd">
+                <button className="">
                   <h6>Descargar Cv</h6>
                 </button>
               </HashLink>

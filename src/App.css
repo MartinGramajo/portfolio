@@ -110,7 +110,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #c5b2b2;
 }
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -188,7 +188,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background: rgb(51, 29, 77);
   left: 0;
   top: 0;
   z-index: -1;
