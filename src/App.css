@@ -110,7 +110,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #c5b2b2;
+  background-color: #1f1c1cc4;
 }
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -138,7 +138,7 @@ span.navbar-text {
 .social-icon a {
   width: 42px;
   height: 42px;
-  background: rgba(217, 217, 217, 0.1);
+  background: rgba(217, 217, 217, 0);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
@@ -188,7 +188,7 @@ span.navbar-text {
   width: 0%;
   height: 100%;
   position: absolute;
-  background: rgb(51, 29, 77);
+  background: #fff;
   left: 0;
   top: 0;
   z-index: -1;
@@ -251,7 +251,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .logo-nav {
   width: 70px;
-  background: #878181;
+  background: #cac9c9ed;
   /* background: linear-gradient(90deg, rgb(62, 42, 85) 0%, rgb(45, 12, 84) 84%, rgba(87, 5, 176, 0.162) 100%); */
   border-radius: 45%;
 }
@@ -602,7 +602,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .logo-footer {
   width: 35%;
-  background: #878181;
+  background: #cac9c9ed;
   /* background: linear-gradient(90deg, rgb(62, 42, 85) 0%, rgb(45, 12, 84) 84%, rgba(87, 5, 176, 0.162) 100%); */
   border-radius: 45%;
 }
